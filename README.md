@@ -11,3 +11,12 @@ Luego de la instalacion, puedes terminar la instalacion de Rosa con `chmod u+x s
 ## Ejecucion
 Luego, para comenzar a utilizar a Rosa, escribir: 
 ```./start.sh```
+
+Para poder gestionar los turnos de forma virtual (con zoom) se debe iniciar sesion con una cuenta adherida al sistema. Para el MVP la unica cuenta posible es urielsosavazquez@gmail.com como anfitrion.
+
+# Contenido
+- /app: Chatbot de Rosa
+- /manager: Portal web para los doctores, donde recibiran y administraran los turnos
+- /backend: API y conexiones
+
+Al correr el programa (./start.sh), se recibira por stdout el URL para el portal (este suele ser localhost:3000).
