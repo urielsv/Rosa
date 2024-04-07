@@ -1,4 +1,4 @@
-# Rosa
+# Rosa - Grupo: Copiloto
 Rosa, el bot de whatsapp que te permite sacar turnos en guardia medica desde la comodiad de tu hogar.
 
 ## Requerimientos
