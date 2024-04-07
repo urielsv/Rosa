@@ -1,5 +1,9 @@
 // Supports ES6
 // import { create, Whatsapp } from 'venom-bot';
+
+require("dotenv").config();
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+
 const AppointmentManager = require("./AppointmentManager");
 const PropertiesReader = require("properties-reader");
 const properties = PropertiesReader("messages.properties");
@@ -8,7 +12,7 @@ const venom = require("venom-bot");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 // Access your API key as an environment variable (see "Set up your API key" above)
-const genAI = new GoogleGenerativeAI("AIzaSyB0jCuqK-gQd2XDbwL4lZCW16kDsZJ6bwk");
+const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
 // Create an instance of the AppointmentManager class
 const appointmentManager = new AppointmentManager();
