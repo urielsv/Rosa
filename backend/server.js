@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const axios = require('axios');
 
+
 const app = express();
 app.use(cors());
 const port = 80;
@@ -12,7 +13,7 @@ async function generateZoomToken() {
   // @TODO make them environment variables
     const clientId = 'SOqgU3nCSlS9J9Mzh5OeQ';
     const clientSecret = 'IgG8JQKyw6755gJsmzPrRCLFOvkvHGHl';
- 
+    
     try {
       const response = await axios.post('https://zoom.us/oauth/token?grant_type=account_credentials&account_id=-kYpvRZKQkqcieUcg6vDvw', {}, {
         headers: {
