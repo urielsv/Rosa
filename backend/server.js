@@ -3,8 +3,8 @@ const cors = require('cors');
 const axios = require('axios');
 
 require('dotenv').config();
-const CLIENT_ID = process.env.CLIENT_ID;
-const CLIENT_SECRET = process.env.CLIENT_SECRET;
+const CLIENT_ID = process.env.ZOOM_CLIENT_ID || 1;
+const CLIENT_SECRET = process.env.ZOOM_SECRET || 2;
 
 
 const app = express();
@@ -17,6 +17,8 @@ async function generateZoomToken() {
   // @TODO make them environment variables
     const clientId = CLIENT_ID;
     const clientSecret = CLIENT_SECRET;
+    console.log('clientId:', clientId);
+    console.log('clientSecret:', clientSecret);
     
     try {
       const response = await axios.post('https://zoom.us/oauth/token?grant_type=account_credentials&account_id=-kYpvRZKQkqcieUcg6vDvw', {}, {

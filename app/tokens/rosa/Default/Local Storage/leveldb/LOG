@@ -1,15 +1,3 @@
-2024/04/07-03:27:23.425 a907 Reusing MANIFEST /Users/urielsv/Rosa/app/tokens/rosa/Default/Local Storage/leveldb/MANIFEST-000001
-2024/04/07-03:27:23.425 a907 Recovering log #45
-2024/04/07-03:27:23.426 a907 Reusing old log /Users/urielsv/Rosa/app/tokens/rosa/Default/Local Storage/leveldb/000045.log 
-2024/04/07-07:36:09.936 a503 Level-0 table #49: started
-2024/04/07-07:36:09.946 a503 Level-0 table #49: 15229 bytes OK
-2024/04/07-07:36:09.958 a503 Delete type=0 #45
-2024/04/07-07:36:09.960 a503 Compacting 4@0 + 1@1 files
-2024/04/07-07:36:09.970 a503 Generated table #50@0: 62 keys, 14299 bytes
-2024/04/07-07:36:09.970 a503 Compacted 4@0 + 1@1 files => 14299 bytes
-2024/04/07-07:36:09.985 a503 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/04/07-07:36:09.985 a503 Delete type=2 #49
-2024/04/07-07:36:09.986 a503 Delete type=2 #39
-2024/04/07-07:36:09.986 a503 Delete type=2 #37
-2024/04/07-07:36:09.986 a503 Delete type=2 #42
-2024/04/07-07:36:09.986 a503 Delete type=2 #46
+2024/04/07-09:11:04.873 a403 Reusing MANIFEST /Users/urielsv/Rosa/app/tokens/rosa/Default/Local Storage/leveldb/MANIFEST-000001
+2024/04/07-09:11:04.874 a403 Recovering log #55
+2024/04/07-09:11:04.874 a403 Reusing old log /Users/urielsv/Rosa/app/tokens/rosa/Default/Local Storage/leveldb/000055.log 
